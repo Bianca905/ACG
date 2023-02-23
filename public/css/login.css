@@ -1,0 +1,143 @@
+.navbar {
+  overflow: hidden;
+  background-color: #597d9e;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: aqua;
+}
+
+.form-inline {
+  display: flex;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  margin-top: 110px;
+}
+
+.box1 {
+  width: 600px;
+  height: 700px;
+
+  margin: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.box1:hover {
+  border: 5px solid #597d9e83;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 3px #597d9e;
+}
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* .box2{
+    width: 600px;
+    height: 400px;
+    
+    margin: 20px;
+   
+    text-align: center;
+    
+    
+} */
+
+/* .loginWithGoogle{
+    width: 500px;
+    height: 150px;
+    border: 5px solid #597D9E;
+    margin: 30px 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    
+} */
+
+/* .register{
+    width: 500px;
+    height: 150px;
+    border: 5px solid #597D9E;
+    margin: 40px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+} */
+
+/*CSS for banner*/
+
+.searchBar {
+  margin: 0px 0 20px 0;
+  height: 50px;
+}
+.search-btn {
+  height: 50px;
+  border-color: #597d9e;
+}
+* {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.navbar > a {
+  font-size: 20px;
+}
+
+.login-google {
+  text-decoration: none;
+  color: #35485a;
+  font-size: 30px;
+  border: #597d9e solid 2px;
+}
+.loginWithGoogle {
+  border-top: #35485a 2px solid;
+  width: max-content;
+  margin: auto;
+  padding: 10px;
+}
+.register {
+  border-top: #35485a 2px solid;
+  width: 280px;
+  margin: auto;
+  padding: 10px;
+}
+#login-btn {
+  background-color: #597d9e;
+  color: aliceblue;
+  border: #597d9e;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+}
+#register-btn {
+  background-color: #59969e;
+  border: #59969e;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+}
+#logo-container {
+  display: flex;
+}
+#logo {
+  width: 80px;
+  height: 80px;
+}
+h1 {
+  color: #2f4c68;
+}

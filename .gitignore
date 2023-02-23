@@ -1,0 +1,7 @@
+node_modules
+.env
+uploads
+wspProject.session.sql
+.vscode
+settings.json
+profile-reviews

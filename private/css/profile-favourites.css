@@ -1,0 +1,265 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.hi-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+h1 {
+  width: 80%;
+}
+#hi-icon-container > img {
+  border-radius: 50%;
+}
+h3 {
+  margin-top: 7px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #597d9e;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: aqua;
+}
+
+.form-inline {
+  display: flex;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box1 {
+  width: 300px;
+  height: 700px;
+  background-color: #d9d9d9;
+  text-align: center;
+  color: aliceblue;
+}
+
+.box3 {
+  height: 100px;
+  background-color: #564545;
+}
+
+.box4 {
+  height: 100px;
+  border: 1px solid black;
+}
+/* 
+
+
+
+.slider-container{
+    display: flex;
+    
+}
+
+.slider{
+   width:300px;
+    height: 400px;
+    border: 4px solid #597D9E;
+    margin: 20px;
+   
+}
+
+.image{
+    width:240px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 15px 0 0 20px;
+    background-color: #597D9E;
+    
+}
+
+
+
+.product-container{
+    margin-left: 20px;
+}
+
+.productName{
+    width: 240px;
+    height: 80px;
+    border: 1px solid black;
+} */
+
+/* .condition{
+    width: 240px;
+    height: 50px;
+    border: 1px solid black;
+} */
+
+/* .like-container{
+    display: flex;
+   
+} */
+/* .price{
+    width: 180px;
+    height: 50px;
+    border: 1px solid black;
+
+} */
+
+/* .like{
+    
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        margin-left: 10px;
+    
+} */
+
+/* CSS for favoured items */
+#slider-container {
+  gap: 28px;
+  margin: 6px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.favImgContainer {
+  padding: 8px;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.detail-div {
+  padding: 12px;
+  position: relative;
+}
+
+.favName {
+  height: 38px;
+}
+
+.favCondition {
+  height: 38px;
+}
+
+.favPrice {
+  display: flex;
+  justify-content: space-between;
+  height: 38px;
+}
+
+.likeIcon {
+  font-size: 30px;
+  position: absolute;
+  right: 12px;
+  bottom: 24px;
+  z-index: 1;
+}
+
+.recordBox {
+  width: 300px;
+  height: 420px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.recordBox:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 3px #597d9e;
+}
+
+/*CSS for side bar*/
+.combine-boxes {
+  display: flex;
+}
+
+.hi-container {
+  display: flex;
+}
+
+h1 {
+  width: 80%;
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #597d9e;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: aqua;
+}
+
+.dashborad-sideBar {
+  width: 200px;
+  height: 50px;
+  /* border: 4px solid #597d9e3d;
+    border-radius: 12px; */
+  text-align: center;
+  margin: 10px 10px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashborad-sideBar:hover {
+  background-color: #597d9e35;
+  border: 4px solid #597d9e75;
+  border-radius: 12px;
+}
+.profileSelect-btn {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4d6e92;
+}
+* {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.navbar > a {
+  font-size: 20px;
+}
+#logo {
+  width: 80px;
+  height: 80px;
+}
+h1 {
+  color: #2f4c68;
+}
+
+#userIconImg {
+  border-radius: 50%;
+}
